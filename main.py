@@ -10,6 +10,8 @@ logger.setLevel(logging.INFO)
 def main():
     logger.info('START')
     # TODO: основная программа
+    x = 1
+
     logger.info('STOP')
 
 
