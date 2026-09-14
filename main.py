@@ -11,6 +11,7 @@ def main():
     logger.info('START')
     # TODO: основная программа
     x = 1
+    x = 2
 
     logger.info('STOP')
 
