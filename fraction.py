@@ -18,3 +18,9 @@ class Fraction:
                 self.ch * f.zn - self.zn * f.ch,
                 self.zn * f.zn,
             )
+
+    def __str__(self):
+        return f'{self.ch}/{self.zn}'
+
+    def __repr__(self):
+        return f'{self.ch}/{self.zn}'
