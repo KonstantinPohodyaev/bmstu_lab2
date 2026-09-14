@@ -6,3 +6,9 @@ class Fraction:
             )
         self.ch = ch
         self.zn = zn
+
+    def __str__(self):
+        return f'{self.ch}/{self.zn}'
+
+    def __repr__(self):
+        return f'{self.ch}/{self.zn}'
